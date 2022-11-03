@@ -74,7 +74,7 @@ class FastSpeechConfig(BaseConfig):
         attention_probs_dropout_prob=0.1,
         initializer_range=0.02,
         layer_norm_eps=1e-5,
-        max_position_embeddings=2048,
+        max_position_embeddings=20480,
         num_duration_conv_layers=2,
         duration_predictor_filters=256,
         duration_predictor_kernel_sizes=3,
